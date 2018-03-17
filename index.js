@@ -69,7 +69,7 @@ function removeFromCart(item) {
     return ("That item is not in your cart.");
   }
   var removeFrom = cart.indexOf(item);
-  cart.splice();
+  cart.splice(removeFrom, 1);
   return cart;
 }
 
