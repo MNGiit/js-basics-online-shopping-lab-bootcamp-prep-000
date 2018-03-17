@@ -58,8 +58,9 @@ function total() {
     
       theTotal += cart[i].itemPrice;
     
-    return theTotal;
-  }
+    }
+  
+  return theTotal;
 }
 
 function removeFromCart(item) {
