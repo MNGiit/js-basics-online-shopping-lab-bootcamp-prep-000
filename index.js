@@ -67,10 +67,11 @@ function removeFromCart(item) {
   // write your code here
   if (!cart.includes(item)){
     return ("That item is not in your cart.");
-  }
+  } else {
   var removeFrom = cart.indexOf(item);
   cart.splice(removeFrom, 1);
   return cart;
+  }
 }
 
 function placeOrder(cardNumber) {
