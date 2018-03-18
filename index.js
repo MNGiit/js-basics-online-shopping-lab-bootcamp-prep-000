@@ -67,7 +67,7 @@ function removeFromCart(item) {
   // write your code here
   if (!cart.includes(item)){
     return ("That item is not in your cart.");
-  } 
+  } else {
 
   for (var i = 0; i < cart.length; i++){
     
@@ -77,6 +77,7 @@ function removeFromCart(item) {
       
     }
     return cart;
+    }
   }
   
 }
