@@ -66,7 +66,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   
-  
+  /*
   if (!cart.includes(item)){
     return ("That item is not in your cart.");
   } else {
