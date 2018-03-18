@@ -41,8 +41,6 @@ function viewCart() {
     i++;
     }
     
-    stringToReturn = stringToReturn.splice
-    
     return stringToReturn;
     
   }
