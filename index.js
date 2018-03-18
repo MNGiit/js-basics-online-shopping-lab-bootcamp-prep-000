@@ -34,8 +34,8 @@ function viewCart() {
   else if (cart.length>2){
     var stringToReturn = "In your cart, you have ";
     var i = 0;
-    var putAnd = (cart.length) - 1;
-    while (i < cart.length){
+    var beforeAnd = (cart.length) - 1;
+    while (i < beforeAnd){
     stringToReturn += `${cart[i].itemName}` +" at " + "$" +`${cart[i].itemPrice}`;
       
      if (i=== cart.length){
