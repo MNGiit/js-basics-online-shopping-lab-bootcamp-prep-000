@@ -76,6 +76,9 @@ function removeFromCart(item) {
     
   }
   
+  if (!cart.includes(item)){
+    return ("That item is not in your cart.");
+  }
   /*
   if (!cart.includes(item)){
     return ("That item is not in your cart.");
