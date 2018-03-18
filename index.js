@@ -73,6 +73,7 @@ function removeFromCart(item) {
     
     if (item == cart[i]) {
       
+      console.log("At this point it should be removed.")
       cart.splice(i, 1);
       
     }
