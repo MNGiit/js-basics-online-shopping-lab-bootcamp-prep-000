@@ -43,7 +43,7 @@ function viewCart() {
     
     stringToReturn = stringToReturn.substring(0, stringToReturn.length - 2);
     i++;
-    stringToReturn = stringToReturn + " and " +" at " + `${cart[i].itemPrice}`+".";
+    stringToReturn = stringToReturn + " and " +" at "+".";
     
     return stringToReturn;
     
