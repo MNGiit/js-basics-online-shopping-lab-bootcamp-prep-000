@@ -41,6 +41,8 @@ function viewCart() {
     i++;
     }
     
+    stringToReturn = stringToReturn.substring(0, )
+    
     return stringToReturn;
     
   }
