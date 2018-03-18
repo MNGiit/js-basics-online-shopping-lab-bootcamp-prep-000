@@ -35,14 +35,13 @@ function viewCart() {
     var stringToReturn = "In your cart, you have ";
     var i = 0;
     var beforeAnd = (cart.length) - 1;
+    
     while (i < beforeAnd){
     stringToReturn += `${cart[i].itemName}` +" at " + "$" +`${cart[i].itemPrice}`+", ";
-      
-     if (i=== cart.length){
-       // stringToReturn+=".";
-     }
-       // else stringToReturn+=", ";
-      i++;}
+    i++;
+    }
+    
+    stringToReturn = stringToReturn.splice
     
     return stringToReturn;
     
