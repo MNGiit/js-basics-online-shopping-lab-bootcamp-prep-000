@@ -36,7 +36,7 @@ function viewCart() {
     var i = 0;
     var beforeAnd = (cart.length) - 1;
     while (i < beforeAnd){
-    stringToReturn += `${cart[i].itemName}` +" at " + "$" +`${cart[i].itemPrice}`;
+    stringToReturn += `${cart[i].itemName}` +" at " + "$" +`${cart[i].itemPrice}`+", ";
       
      if (i=== cart.length){
        // stringToReturn+=".";
